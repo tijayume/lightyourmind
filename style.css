@@ -1,0 +1,129 @@
+.dark{
+  color:white;
+  font-family: Poppins;
+  font-size:1.3rem;
+  position:relative;
+  left:13.5rem;
+  top:0;
+  line-height:1.2rem;
+}
+.dodatnistil{
+  position:relative;
+  left:24rem;
+  color:white;
+  font-family: Poppins;
+  font-size:1.3rem;
+  line-heigth:1rem;
+}
+html{
+  font-size:20px;
+}
+#se{
+  color:pink;
+  position:fixed;
+  left:23.4rem;
+  top:21.9rem;
+  font-family: Poppins;
+  font-size:1rem;
+  opacity:0;
+}
+body{
+  background-color:#222222;
+}
+#dugme1{
+  position:relative;
+  left:1rem;
+  padding:0;
+}
+#sijalica{
+  max-width:100%;
+  height:21rem;
+  opacity:0.5;
+  position:fixed;
+  left:21.2rem;
+  top:4rem;
+}
+
+*{
+  transition:0.8s;
+}
+#dugme1{
+  position:relative;
+  left:1;padding:0;
+}
+#vezba{
+  display:block;
+  margin:0 auto;
+  position:fixed;
+  left:30.2rem;
+  bottom:0.2rem;
+  box-shadow:none;
+  background-color:#ffe4e1;
+  width:3rem;
+  height:1.8rem;
+  border-radius:0.7rem;
+  cursor:pointer;
+}
+#divno{
+  background-color:white;
+  width:1.3rem;
+  height:1.3rem;
+  border-radius: 100%;
+  cursor:pointer;
+  transition:0.4s;
+}
+#divzaizreke{
+  border-radius:1rem;
+  opacity:0;
+  display:inline-block;
+  width:14rem;
+  height:9rem;
+  background-color:pink;
+  margin-top:3.8rem;
+  margin-left:8rem;
+}
+#divzaizrekedva{
+  border-radius:1rem;
+  opacity:0;
+  position:relative;
+  left:18rem;
+  background-color:pink;
+  display:inline-block;
+  width:14rem;
+  height:9rem;
+  margin-top:3.8rem;
+}
+#izreka1{
+  color:white;
+  font-weight:400;
+  font-family:Poppins;
+  font-size:0.9rem;
+  text-align:center;
+}
+#izreka2{
+  color:white;
+  font-weight:400;
+  font-family:Poppins;
+  font-size:0.9rem;
+  text-align:center;
+}
+
+@media only screen and (max-width:800px){
+  html {
+    font-size:10px;
+  }
+  #divno{
+    position:relative;
+    right:0.5rem;
+}
+@media only screen and (max-width:400px){
+  html{
+    font-size:14px;
+  }
+    #divzaizrekedva{
+      display:none;
+  }
+#divno{
+  position:relative;
+  right:0.5rem;
+}
